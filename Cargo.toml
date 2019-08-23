@@ -1,0 +1,15 @@
+[package]
+name = "read-write-pipe"
+version = "0.1.0"
+authors = ["Manfred Endres <manfred.endres@tslarusso.de>"]
+edition = "2018"
+description = "A trait for objects implementing Write, to write all content from a Read object."
+repository = "https://github.com/Larusso/read-write-pipe"
+readme = "README.md"
+license = "Apache-2.0"
+keywords = ["reader","writer","io","pipe"]
+categories = ["data-structures"]
+[badges]
+travis-ci = { repository = "Larusso/read-write-pipe", branch = "master" }
+maintenance = { status = "passively-maintained" }
+[dependencies]
